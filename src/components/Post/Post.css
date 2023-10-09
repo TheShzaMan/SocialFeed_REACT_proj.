@@ -1,0 +1,16 @@
+.post-container {
+	background-color: rgba(63, 61, 76, 0.877);
+	color: aliceblue;
+	border-style: groove;
+	border-radius: 10px;
+	padding: 10px;
+	border-width: 5px;
+	display: block;
+}
+.like-box {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: end;
+	padding: 0px 10px;
+}
