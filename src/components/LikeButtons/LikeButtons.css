@@ -1,0 +1,7 @@
+.like-box {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: end;
+	padding: 0px 10px;
+}
