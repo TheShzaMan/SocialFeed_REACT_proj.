@@ -6,6 +6,7 @@
 	padding: 10px;
 	border-width: 5px;
 	display: block;
+	width: 100%;
 }
 .like-box {
 	display: flex;

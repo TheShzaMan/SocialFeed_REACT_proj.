@@ -1,18 +1,16 @@
 import "./Post.css";
 
-const Post = ({}) => {
+const Post = ({ post }) => {
 	return (
 		<div className='post-container'>
 			<div className='post-author'>
-				<h4>UserName4571</h4>
+				<h4>{post.postAuthor}</h4>
 			</div>
+
 			<div className='post-content'>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua.
-				</p>
+				<p>{post.postContent}</p>
 			</div>
+
 			<div className='like-box'>
 				<div className='like'>
 					<button className='like'>LIKE</button>{" "}
