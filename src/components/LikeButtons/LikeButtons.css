@@ -2,6 +2,16 @@
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
-	justify-content: end;
 	padding: 0px 10px;
+	justify-content: flex-end;
+	padding-right: 50px;
+}
+.like-box button {
+	width: auto;
+}
+.like {
+	width: auto;
+}
+.dislike {
+	width: auto;
 }

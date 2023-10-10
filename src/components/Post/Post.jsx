@@ -3,7 +3,7 @@ import "./Post.css";
 
 const Post = ({ post }) => {
 	return (
-		<div className='post-container'>
+		<div key={post.Id} className='post-container'>
 			<div className='post-author'>
 				<h4>{post.postAuthor}</h4>
 			</div>

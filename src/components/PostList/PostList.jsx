@@ -12,7 +12,7 @@ const PostList = ({}) => {
 			Id: 2,
 			postAuthor: "tina9898",
 			postContent:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		},
 		{
 			Id: 3,
@@ -29,7 +29,7 @@ const PostList = ({}) => {
 	];
 	///////////     Use activeIndex from movies-front-end/app.jsx  //////////////
 	console.log(posts);
-	const singlePost = posts.map((post) => <Post post={post} />);
+	const singlePost = posts.map((post) => <Post key={post.Id} post={post} />);
 	return (
 		<div className='post-list'>
 			<h4>Recent Chismes</h4>
