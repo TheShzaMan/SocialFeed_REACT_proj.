@@ -3,15 +3,22 @@ import "./Post.css";
 
 const Post = ({ post }) => {
 	return (
-		<div key={post.Id} className='post-container'>
-			<div className='post-author'>
-				<h4>{post.postAuthor}</h4>
-			</div>
+		<div key={post.postId} className='post-container'>
+			<div className='content-left'>
+				<div className='post-author'>
+					<h4>{post.postAuthor}</h4>
+				</div>
 
-			<div className='post-content'>
-				<p>{post.postContent}</p>
+				<div className='post-content'>
+					<p>{post.postContent}</p>
+				</div>
 			</div>
-			<LikeButtons />
+			<div className='content-right'>
+				<div className='time-stamp'>
+					<p>{post.postTime}</p>
+				</div>
+				<LikeButtons />
+			</div>
 		</div>
 	);
 };

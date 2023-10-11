@@ -5,3 +5,10 @@
 	flex-direction: column;
 	/* justify-content: center; */
 }
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(244, 244, 247);
+	font-style: italic;
+	font-size: 20px;
+	text-shadow: -2px 2px 4px rgb(70, 31, 83), 2px -1px rgb(70, 31, 83);
+}

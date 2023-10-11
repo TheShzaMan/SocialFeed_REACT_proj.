@@ -2,16 +2,29 @@
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
-	padding: 0px 10px;
+	padding: 0px 5px;
 	justify-content: flex-end;
 	padding-right: 50px;
 }
+
 .like-box button {
 	width: auto;
+	cursor: pointer;
+	padding: 10px 20px;
 }
-.like {
-	width: auto;
+
+.like-inactive {
+	background-color: grey;
 }
-.dislike {
-	width: auto;
+
+.like-active {
+	background-color: lightseagreen;
+}
+
+.dislike-inactive {
+	background-color: grey;
+}
+
+.dislike-active {
+	background-color: darkred;
 }
